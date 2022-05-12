@@ -1,8 +1,11 @@
 {
   "name": "easy-obfuscator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Automatically obfuscates all the js and mjs files in you project and outputs them in a new directory while also copying all the other files in the orginal directory.",
   "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dolimight/easy-obfuscator.git"

@@ -16,6 +16,6 @@ Node Js
 ```javascript
 const { EasyJavaScriptObfuscator } = require("easy-obfuscator");
 
-var easyJavaScriptObfuscator = new EasyJavaScriptObfuscator(); // default source: private, destination: public
+var easyJavaScriptObfuscator = new EasyJavaScriptObfuscator(); // default source: private, destination: public, ignores: []
 easyJavaScriptObfuscator.obfuscateDirectory();
 ```
